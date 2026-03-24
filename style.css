@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background: black;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+}
+
+/* Home */
+#home {
+    background: lightblue;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* Projects */
+.project {
+    background: lightgray;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+}
